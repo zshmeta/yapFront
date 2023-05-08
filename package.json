@@ -1,0 +1,27 @@
+{
+  "name": "yap_front",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 5000",
+    "build": "next build",
+    "start": "next start -p 5001",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.8",
+    "cross-fetch": "^3.1.5",
+    "eslint": "8.39.0",
+    "eslint-config-next": "13.3.4",
+    "next": "13.3.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.8.0",
+    "react-syntax-highlighter": "^15.5.0",
+    "react-use": "^17.4.0",
+    "sass": "^1.62.1",
+    "scss": "^0.2.4",
+    "styled-components": "^5.3.10",
+    "unstyled-components": "^0.1.5"
+  }
+}

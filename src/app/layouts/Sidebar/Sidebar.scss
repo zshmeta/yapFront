@@ -1,0 +1,116 @@
+//
+//.sidebar {
+//  position: fixed;
+//  left: 0;
+//  top: 0;
+//  bottom: 0;
+//  display: flex;
+//  flex-direction: column;
+//  align-items: center;
+//  justify-content: center;
+//  background-color: rgba(255, 255, 255, 0.2);
+//  padding: 1rem;
+//  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+//  transition: all 0.3s;
+//}
+//
+//.sidebar:hover {
+//  background-color: rgba(255, 255, 255, 0.3);
+//  transform: scale(0.95);
+//}
+//
+//.side-item {
+//  margin: 0.5rem 0;
+//  padding: 0.5rem;
+//  cursor: pointer;
+//  display: flex;
+//  align-items: center;
+//  justify-content: center;
+//  transition: transform 0.3s;
+//}
+//
+//.side-item:hover {
+//  transform: scale(1.2);
+//}
+//
+//.side-item i {
+//  transition: transform 0.3s;
+//}
+//
+//
+//.home-icon {
+//  background-image: url('/yap_front/src/app/assets/icons/fav-folder-dynamic-gradient.png');
+//}
+//
+//.user-icon {
+//  background-image: url('/yap_front/src/app/assets/icons/at-dynamic-gradient.png');
+//}
+//
+//
+//.envelope-icon {
+//  background-image: url('/yap_front/src/app/assets/icons/mail-dynamic-gradient.png');
+//}
+//
+//.computer-icon {
+//  background-image: url('/yap_front/src/app/assets/icons/computer-dynamic-gradient.png');
+//}
+//
+//
+//.paint-brush-icon {
+//  background-image: url('/yap_front/src/app/assets/icons/paint-brush-dynamic-gradient.png');
+//}
+//
+//.hash-icon {
+//  background-image: url('/yap_front/src/app/assets/icons/hash-dynamic-gradient.png');
+//}
+//
+//.picture-icon {
+//  background-image: url('/yap_front/src/app/assets/icons/picture-dynamic-gradient.png');
+//}
+//
+//.play-icon {
+//  background-image: url('/yap_front/src/app/assets/icons/play-dynamic-gradient.png');
+//}
+//
+//.dollar-icon {
+//  background-image: url('/yap_front/src/app/assets/icons/dollar-dynamic-gradient.png');
+//}
+//
+//.euro-icon {
+//  background-image: url('/yap_front/src/app/assets/icons/euro-dynamic-gradient.png');
+//}
+//
+//.puzzle-icon {
+//  background-image: url('/yap_front/src/app/assets/icons/puzzle-dynamic-gradient.png');
+//}
+//
+//.calculator-icon {
+//  background-image: url('/yap_front/src/app/assets/icons/calculator-dynamic-gradient.png');
+//}
+//
+//.folder-icon {
+//  background-image: url('/yap_front/src/app/assets/icons/folder-dynamic-gradient.png');
+//}
+
+
+.sidebar {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 0 30px 30px 0;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.sidebar-icon {
+  width: 50px;
+  height: 50px;
+  margin: 0.5rem;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}

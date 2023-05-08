@@ -1,0 +1,25 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-section,
+.center-section,
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+.icon-container {
+    margin: 0 0.5rem;
+}
+
+.battery-icon {
+    /* Add your desired battery icon styling or import an SVG */
+}
+
+.right-icon{
+    /* Replace with desired right icon styling or import an SVG */
+}
